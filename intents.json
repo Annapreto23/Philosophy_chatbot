@@ -1,0 +1,155 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good evening"
+      ],
+      "responses": [
+        "Hello! I'm your friendly quotes bot. How can I brighten your day today?",
+        "Hi there! I can provide you with inspirational, motivational, and philosophical quotes. What topic are you interested in?",
+        "Hey! I'm here to share some amazing quotes with you. Just let me know what type of quote you need!"
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "What do you do?", "Tell me about yourself", "What can you do?"
+      ],
+      "responses": [
+        "I’m your quotes bot! I can provide quotes on various topics like inspiration, motivation, philosophy, and more. Just tell me the theme you're interested in!",
+        "I’m here to share quotes from famous authors and thinkers. Let me know if you want a quote on a specific topic or if you need some inspiration!",
+        "My job is to provide you with quotes that match your mood or interests. Just specify a topic, and I’ll find a relevant quote for you!"
+      ]
+    },
+    {
+      "tag": "inspiration",
+      "patterns": [
+        "Give me an inspiring quote", "Tell me something inspirational", "I need an inspiration"
+      ],
+      "responses": [
+        "“The only way to do great work is to love what you do.” – Steve Jobs",
+        "“The best way to predict the future is to invent it.” – Alan Kay",
+        "“Believe you can and you're halfway there.” – Theodore Roosevelt",
+        "“You miss 100% of the shots you don't take.” – Wayne Gretzky",
+        "“Your time is limited, don't waste it living someone else's life.” – Steve Jobs"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Give me a motivational quote", "Tell me something motivating", "I need motivation"
+      ],
+      "responses": [
+        "“Success is not final, failure is not fatal: It is the courage to continue that counts.” – Winston Churchill",
+        "“The harder you work for something, the greater you'll feel when you achieve it.” – Unknown",
+        "“Don't watch the clock; do what it does. Keep going.” – Sam Levenson",
+        "“It always seems impossible until it's done.” – Nelson Mandela",
+        "“The only limit to our realization of tomorrow is our doubts of today.” – Franklin D. Roosevelt"
+      ]
+    },
+    {
+      "tag": "philosophy",
+      "patterns": [
+        "Give me a philosophical quote", "Tell me something philosophical", "I need a thought-provoking quote"
+      ],
+      "responses": [
+        "“The unexamined life is not worth living.” – Socrates",
+        "“I think, therefore I am.” – René Descartes",
+        "“Happiness is not something ready made. It comes from your own actions.” – Dalai Lama",
+        "“Man is the measure of all things.” – Protagoras",
+        "“The only true wisdom is in knowing you know nothing.” – Socrates"
+      ]
+    },
+    {
+      "tag": "love",
+      "patterns": [
+        "Give me a quote about love", "Tell me something romantic", "I need a love quote"
+      ],
+      "responses": [
+        "“Love is composed of a single soul inhabiting two bodies.” – Aristotle",
+        "“To love and be loved is to feel the sun from both sides.” – David Viscott",
+        "“The best thing to hold onto in life is each other.” – Audrey Hepburn",
+        "“Where there is love there is life.” – Mahatma Gandhi",
+        "“We are most alive when we're in love.” – John Updike"
+      ]
+    },
+    {
+      "tag": "life",
+      "patterns": [
+        "Give me a quote about life", "Tell me something about life", "I need a life quote"
+      ],
+      "responses": [
+        "“Life is what happens when you're busy making other plans.” – John Lennon",
+        "“In the end, we will remember not the words of our enemies, but the silence of our friends.” – Martin Luther King Jr.",
+        "“The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.” – Ralph Waldo Emerson",
+        "“Life is really simple, but we insist on making it complicated.” – Confucius",
+        "“You only live once, but if you do it right, once is enough.” – Mae West"
+      ]
+    },
+    {
+      "tag": "wisdom",
+      "patterns": [
+        "Give me a wise quote", "Tell me something wise", "I need a wisdom quote"
+      ],
+      "responses": [
+        "“Wisdom begins in wonder.” – Socrates",
+        "“The only true wisdom is in knowing you know nothing.” – Socrates",
+        "“The journey of a thousand miles begins with one step.” – Lao Tzu",
+        "“The wise man does at once what the fool does finally.” – Niccolò Machiavelli",
+        "“Knowledge speaks, but wisdom listens.” – Jimi Hendrix"
+      ]
+    },
+    {
+      "tag": "courage",
+      "patterns": [
+        "Give me a quote about courage", "Tell me something about bravery", "I need a courage quote"
+      ],
+      "responses": [
+        "“Courage is not the absence of fear, but the triumph over it.” – Nelson Mandela",
+        "“It does not do to dwell on dreams and forget to live.” – J.K. Rowling",
+        "“You must do the things you think you cannot do.” – Eleanor Roosevelt",
+        "“Fear is a natural reaction to moving closer to the truth.” – Pema Chödrön",
+        "“Courage is grace under pressure.” – Ernest Hemingway"
+      ]
+    },
+    {
+      "tag": "humor",
+      "patterns": [
+        "Give me a funny quote", "Tell me a joke", "I need a humorous quote"
+      ],
+      "responses": [
+        "“I find television very educating. Every time somebody turns on the set, I go into the other room and read a book.” – Groucho Marx",
+        "“If you think you are too small to make a difference, try sleeping with a mosquito.” – Dalai Lama",
+        "“I'm writing a book. I've got the page numbers done.” – Steven Wright",
+        "“Do not take life too seriously. You will never get out of it alive.” – Elbert Hubbard",
+        "“I used to think I was indecisive, but now I'm not too sure.” – Unknown"
+      ]
+    },
+    {
+      "tag": "success",
+      "patterns": [
+        "Give me a quote about success", "Tell me something about achieving goals", "I need a success quote"
+      ],
+      "responses": [
+        "“Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.” – Albert Schweitzer",
+        "“The only place where success comes before work is in the dictionary.” – Vidal Sassoon",
+        "“Success usually comes to those who are too busy to be looking for it.” – Henry David Thoreau",
+        "“I never dreamed about success. I worked for it.” – Estée Lauder",
+        "“Success is walking from failure to failure with no loss of enthusiasm.” – Winston Churchill"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Have a nice day"
+      ],
+      "responses": [
+        "Goodbye! I hope you enjoyed the quotes. Have a great day!",
+        "See you later! Feel free to come back if you need more quotes or inspiration.",
+        "Take care! I’m here whenever you need a new quote or some uplifting words."
+      ]
+    }
+  ]
+}
+
