@@ -86,11 +86,3 @@ To set up and use the chatbot, follow these steps:
    User: Tell me a quote about love
    ChatBot: "The only thing we have to fear is fear itself." - Franklin D. Roosevelt
    ```
-
-
-# Philosophy_chatbot
-# Philosophy_chatbot
-# Philosophy_chatbot
-# Philosophy_chatbot
-# Philosophy_chatbot
-# Philosophy_chatbot
